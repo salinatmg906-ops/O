@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Bhatti</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* MENU */
+.menu {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/* GRID */
+.food-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CARD */
+.food-item {
+  background: #1a1a1a;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.food-item:hover {
+  transform: translateY(-8px);
+}
+
+/* IMAGE */
+.food-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* TEXT */
+.food-item h3 {
+  margin: 15px 0 5px;
+  font-size: 20px;
+}
+
+.food-item p {
+  color: #bbb;
+  font-size: 14px;
+  padding: 0 15px 20px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #000;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #aaa;
+}
+</style>
+
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Modern Bhatti</h1>
+  <p>Delicious Food • Fast Service • Best Taste</p>
+</div>
+
+<!-- MENU -->
+<div class="menu">
+  <h2>Our Popular Dishes</h2>
+
+  <div class="food-gallery">
+
+    <div class="food-item">
+      <img src="https://images.unsplash.com/photo-1558030006-450675393462" alt="BBQ">
+      <h3>Grilled BBQ</h3>
+      <p>Juicy grilled skewers with smoky flavor</p>
+    </div>
+
+    <div class="food-item">
+      <img src="https://images.unsplash.com/photo-1604908176997-431b9b0d6d2e" alt="Momo">
+      <h3>Momo</h3>
+      <p>Steamed dumplings with spicy chutney</p>
+    </div>
+
+    <div class="food-item">
+      <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246" alt="Noodles">
+      <h3>Chowmein</h3>
+      <p>Stir-fried noodles with fresh veggies</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <p>© 2026 Modern Bhatti | All Rights Reserved</p>
+</div>
+
+</body>
+</html>
